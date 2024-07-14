@@ -8,4 +8,6 @@ add_executable(untitled2 main.cpp
         solutions/gcd/main.h
         solutions/fibonacci/main.cpp
         solutions/fibonacci/main.h
+        cpp-exams/gcd_of_array.cpp
+        cpp-exams/exam.h
 )

@@ -22,3 +22,16 @@ int gcd_extend(int a, int b, int *x, int *y) {
 
     return gcd;
 }
+
+int gcd_arr(int *arr, int size) {
+    if (size < 1) return 1;
+    if (size == 2) return gcd(arr[0], arr[1]);
+
+    int result = arr[0];
+    for (int i = 1; i < size; i++) {
+        result = gcd(result, arr[i]);
+
+        if (result == 1) return 1;
+    }
+    return result;
+}
