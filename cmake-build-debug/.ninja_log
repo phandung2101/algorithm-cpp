@@ -1,0 +1,5 @@
+# ninja log v6
+2	290	7426259328372023	build.ninja	ba215a15e45ee305
+23	79	7426257829614682	CMakeFiles/untitled2.dir/solutions/lcm_gcd/Solution.cpp.obj	6b76650300c0c966
+19	237	7426257829574675	CMakeFiles/untitled2.dir/main.cpp.obj	d439c14240ecf114
+237	293	7426257831764660	untitled2.exe	556d4a2099bf40f9
