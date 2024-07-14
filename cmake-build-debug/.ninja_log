@@ -1,5 +1,18 @@
 # ninja log v6
-2	290	7426259328372023	build.ninja	ba215a15e45ee305
-23	79	7426257829614682	CMakeFiles/untitled2.dir/solutions/lcm_gcd/Solution.cpp.obj	6b76650300c0c966
-19	237	7426257829574675	CMakeFiles/untitled2.dir/main.cpp.obj	d439c14240ecf114
-237	293	7426257831764660	untitled2.exe	556d4a2099bf40f9
+1	218	7426441273144194	build.ninja	ba215a15e45ee305
+8	64	7426384415141756	CMakeFiles/untitled2.dir/solutions/lcm_gcd/Solution.cpp.obj	6b76650300c0c966
+3	224	7426421332958700	CMakeFiles/untitled2.dir/main.cpp.obj	d439c14240ecf114
+225	292	7426421335168989	untitled2.exe	5da2a3cf66c33285
+15	59	7426419115160218	CMakeFiles/untitled2.dir/solutions/lcm_gcd/main.cpp.obj	211e39ae26dbad21
+17	72	7426419115180221	CMakeFiles/untitled2.dir/solutions/fibonacci/main.cpp.obj	a75897d0f7761bbf
+6	49	7426441893309873	CMakeFiles/untitled2.dir/solutions/gcd/main.cpp.obj	88cfc49bb51f1453
+3	228	7426441893279880	CMakeFiles/untitled2.dir/main.cpp.obj	d439c14240ecf114
+228	307	7426441895532780	untitled2.exe	dffa18701766fe3a
+4	230	7426442025575121	CMakeFiles/untitled2.dir/main.cpp.obj	d439c14240ecf114
+230	308	7426442027839851	untitled2.exe	dffa18701766fe3a
+4	237	7426442377531359	CMakeFiles/untitled2.dir/main.cpp.obj	d439c14240ecf114
+238	305	7426442379867934	untitled2.exe	dffa18701766fe3a
+4	249	7426442455058182	CMakeFiles/untitled2.dir/main.cpp.obj	d439c14240ecf114
+250	325	7426442457521571	untitled2.exe	dffa18701766fe3a
+4	228	7426442640759730	CMakeFiles/untitled2.dir/main.cpp.obj	d439c14240ecf114
+228	287	7426442643000451	untitled2.exe	dffa18701766fe3a

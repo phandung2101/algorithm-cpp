@@ -4,6 +4,8 @@ project(untitled2)
 set(CMAKE_CXX_STANDARD 17)
 
 add_executable(untitled2 main.cpp
-        solutions/lcm_gcd/Solution.cpp
-        solutions/lcm_gcd/Solution.h
+        solutions/gcd/main.cpp
+        solutions/gcd/main.h
+        solutions/fibonacci/main.cpp
+        solutions/fibonacci/main.h
 )

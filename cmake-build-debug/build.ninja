@@ -55,11 +55,17 @@ build CMakeFiles/untitled2.dir/main.cpp.obj: CXX_COMPILER__untitled2_unscanned_D
   OBJECT_DIR = CMakeFiles\untitled2.dir
   OBJECT_FILE_DIR = CMakeFiles\untitled2.dir
 
-build CMakeFiles/untitled2.dir/solutions/lcm_gcd/Solution.cpp.obj: CXX_COMPILER__untitled2_unscanned_Debug C$:/Users/Admin/CLionProjects/untitled2/solutions/lcm_gcd/Solution.cpp || cmake_object_order_depends_target_untitled2
-  DEP_FILE = CMakeFiles\untitled2.dir\solutions\lcm_gcd\Solution.cpp.obj.d
+build CMakeFiles/untitled2.dir/solutions/gcd/main.cpp.obj: CXX_COMPILER__untitled2_unscanned_Debug C$:/Users/Admin/CLionProjects/untitled2/solutions/gcd/main.cpp || cmake_object_order_depends_target_untitled2
+  DEP_FILE = CMakeFiles\untitled2.dir\solutions\gcd\main.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\untitled2.dir
-  OBJECT_FILE_DIR = CMakeFiles\untitled2.dir\solutions\lcm_gcd
+  OBJECT_FILE_DIR = CMakeFiles\untitled2.dir\solutions\gcd
+
+build CMakeFiles/untitled2.dir/solutions/fibonacci/main.cpp.obj: CXX_COMPILER__untitled2_unscanned_Debug C$:/Users/Admin/CLionProjects/untitled2/solutions/fibonacci/main.cpp || cmake_object_order_depends_target_untitled2
+  DEP_FILE = CMakeFiles\untitled2.dir\solutions\fibonacci\main.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\untitled2.dir
+  OBJECT_FILE_DIR = CMakeFiles\untitled2.dir\solutions\fibonacci
 
 
 # =============================================================================
@@ -69,7 +75,7 @@ build CMakeFiles/untitled2.dir/solutions/lcm_gcd/Solution.cpp.obj: CXX_COMPILER_
 #############################################
 # Link the executable untitled2.exe
 
-build untitled2.exe: CXX_EXECUTABLE_LINKER__untitled2_Debug CMakeFiles/untitled2.dir/main.cpp.obj CMakeFiles/untitled2.dir/solutions/lcm_gcd/Solution.cpp.obj
+build untitled2.exe: CXX_EXECUTABLE_LINKER__untitled2_Debug CMakeFiles/untitled2.dir/main.cpp.obj CMakeFiles/untitled2.dir/solutions/gcd/main.cpp.obj CMakeFiles/untitled2.dir/solutions/fibonacci/main.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\untitled2.dir
