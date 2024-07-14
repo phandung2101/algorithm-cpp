@@ -1,5 +1,5 @@
 #pragma once
 
-long long gcd(long long a, long long b);
+int gcd(int a, int b);
 
-long long gcd_extend(long long a, long long b, long long *x, long long *y);
+int gcd_extend(int a, int b, int *x, int *y);

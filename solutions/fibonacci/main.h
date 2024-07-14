@@ -1,3 +1,3 @@
 #pragma once
 
-long long fibo(long long step);
+int fibo(long long step);

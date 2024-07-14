@@ -5,9 +5,9 @@
 using namespace std;
 
 int main() {
-    long long x, y;
+    int x, y;
     x = fibo(20);
     y = fibo(21);
-    long long i, j;
+    int i, j;
     cout << gcd_extend(35, 15, &i, &j) << endl;
 }

@@ -1,12 +1,12 @@
 #include "main.h"
 
-long long fibo(long long step) {
+int fibo(int step) {
     if (step == 0) return 0;
     if (step == 1) return 1;
 
-    long long x = 0, y = 1;
-    long long i = step;
-    long long sum;
+    int x = 0, y = 1;
+    int i = step;
+    int sum;
     while (i > 0) {
         sum = x + y;
         if (x > y) {
