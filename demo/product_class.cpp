@@ -1,6 +1,7 @@
 #include "iostream"
 #include "vector"
 #include "iomanip"
+#include <algorithm>
 
 using namespace std;
 
@@ -28,6 +29,10 @@ public:
 	}
 };
 
+bool compare(MatHang a, MatHang b) {
+	return a.loiNhuan > b.loiNhuan;
+}
+
 int main() {
 	int i=0, N;
 	cin >> N;
@@ -40,16 +45,20 @@ int main() {
 		i++;
 	}
 	int x,y;
-	for(x=0;x<v.size();x++) {
-		for(y=x+1;y<v.size();y++) {
-			if(v[y].loiNhuan > v[x].loiNhuan) {
-				MatHang temp = v[y];
-				v[y] = v[x];
-				v[x] = temp;
-			}
-		}
-		
-	}
+	
+// manual sort
+//	for(x=0;x<v.size();x++) {
+//		for(y=x+1;y<v.size();y++) {
+//			if(v[y].loiNhuan > v[x].loiNhuan) {
+//				MatHang temp = v[y];
+//				v[y] = v[x];
+//				v[x] = temp;
+//			}
+//		}
+//		
+//	}
+
+	sort(v.begin(), v.end(), compare);
 	
 	for(i=0;i<v.size();i++) {
 		v[i].in();
